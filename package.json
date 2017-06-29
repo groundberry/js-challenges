@@ -1,0 +1,20 @@
+{
+  "name": "js-challenges",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test:lint": "eslint .",
+    "test:unit": "jest",
+    "test": "run-s test:**",
+    "watch": "jest --watch"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.0",
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2"
+  }
+}
